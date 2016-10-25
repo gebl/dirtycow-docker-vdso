@@ -2,8 +2,5 @@ version: '2'
 services:
   dirtycow:
     build: .
-    ports:
-#     - "80:80"
-     - "83:80"
     restart: unless-stopped
 
